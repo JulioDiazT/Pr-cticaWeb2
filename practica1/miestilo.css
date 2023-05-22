@@ -1,0 +1,766 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
+    background-color: white;
+    z-index: 9999;
+    padding-bottom: 10px;
+
+}
+
+.menu ul li:hover .listamenu {
+    display: block;
+    border-bottom-color: red;
+}
+
+.iconomenu ul {
+    list-style: none;
+
+
+}
+
+.menuGrande {
+    width: 60%;
+
+}
+
+.menuGrande ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+}
+
+.menuGrande ul li {
+    list-style: none;
+    font-size: large;
+    padding: 10px;
+}
+
+.menuGrande ul li:hover {
+    display: block;
+
+    border-bottom-color: red;
+}
+
+.menu {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    display: none;
+}
+
+.menu ul {
+    margin-top: 0%;
+}
+
+.iconomenu {
+    width: 5%;
+    position: relative;
+    cursor: pointer;
+    align-self: flex-start;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.menu ul li {
+    list-style-type: none;
+    font-size: x-large;
+}
+
+.logo {
+    height: 40px;
+
+}
+
+nav {
+    padding-top: 10px;
+    padding-left: 10%;
+    width: 100%;
+    display: flex;
+
+
+}
+
+
+nav ul {
+    width: 100%;
+    padding-left: 0%;
+    justify-content: space-around;
+}
+
+.listamenu {
+    list-style: none;
+    width: 100%;
+    display: none;
+
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.boton:hover {
+    color: red;
+    background-color: white;
+
+}
+
+.boton:hover a {
+    color: red;
+    background-color: white;
+
+}
+
+.boton:active {
+    background-color: red;
+}
+
+.boton a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.opcion {
+    border: solid black 1px;
+    font-size: x-large;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.main {
+    background-image: url(assets/imgs/tramite2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 300px;
+    padding-left: 10%;
+    padding-right: 100px;
+}
+
+main h2 {
+    color: white;
+    font-size: xx-large;
+}
+
+main p {
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    font-size: large;
+}
+.seccion {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.seccion p {
+    width: 50%;
+}
+
+/* CONTENEDOR SERVICIOS */
+.contenedor {
+    border: solid white 3px;
+    padding: 10%;
+    padding-top: 20px;
+    width: auto;
+}
+
+.contenedor h2 {
+    font-size: xx-large;
+}
+
+.contenedor p {
+    font-size: larger;
+}
+
+.filaContenedor {
+    border: solid white 3px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+
+}
+
+.filaContenedor h3 {
+    padding-left: 20px;
+    padding-top: 3%;
+
+}
+
+
+.rectangulo2 {
+    background-image: url(assets/imgs/recargas.avif);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    filter: contrast(0.7);
+
+}
+
+.rectangulo2:hover {
+    filter: brightness(1);
+}
+
+.rectangulo2 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+.rectangulo1 {
+
+    width: 50.8%;
+    background-image: url('assets/imgs/passport.avif');
+    background-size: cover;
+    background-position: center;
+    filter: contrast(0.7);
+    transition: filter 0.3s;
+}
+
+.rectangulo1 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+.rectangulo1:hover {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+
+.cuadrado1 {
+    background-image: url(assets/imgs/passport2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    filter: contrast(0.7);
+    transition: filter 0.3s;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cuadrado1:hover {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+.cuadrado1 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+.cuadrado2 {
+
+    background-image: url(assets/imgs/sello.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    filter: contrast(0.7);
+    transition: filter 0.3s;
+
+}
+
+.cuadrado2:hover {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+.cuadrado2 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+.cuadrado3 {
+    position: relative;
+
+    background-image: url(assets/imgs/noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    filter: contrast(0.7);
+    transition: filter 0.3s;
+    margin-right: 5px;
+
+}
+
+.cuadrado3:hover {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+.cuadrado3 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+.cuadrado4 {
+    position: relative;
+    margin-right: 5px;
+
+    background-image: url(assets/imgs/renta.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    filter: contrast(0.7);
+    transition: filter 0.3s;
+
+}
+
+.cuadrado4:hover {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+.cuadrado4 h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+}
+
+/* MAS INFORMACION HOME */
+
+.masInfo {
+    background-image: url(assets/imgs/tel.jpg);
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+.masInfo h2 {
+    color: white;
+    font-weight: bold;
+
+}
+
+.masInfo p {
+    width: 50%;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+a:visited {
+
+    text-decoration: none;
+}
+
+
+/* noticias */
+.noticias {
+
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    justify-content: space-around;
+    background-color: #e3e2e2;
+    height: 600px;
+}
+
+.noticias h2 {
+    padding-left: 20px;
+    font-size: x-large;
+
+}
+
+.noticias section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.noticias article {
+    margin: 5px;
+    width: 30%;
+    padding-bottom: 30px;
+    height: auto;
+    background-color: white;
+
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+
+    ;
+}
+
+article h3 {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+article p {
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    font-size: large;
+}
+
+article p a {
+    text-decoration: none;
+
+}
+
+article p a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+article p a:hover {
+    color: red
+}
+
+
+/* FOOTER */
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer div {
+    align-items: center;
+    display: flex;
+}
+
+.contenedorFooter {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    align-self: start;
+}
+
+.contenedorLogoRedes {
+    width: 30%;
+    align-items: baseline;
+    display: inline-block;
+
+
+}
+
+.logo2justify {
+    width: 200px;
+}
+
+/*Logos redes*/
+.contenedorRedes {
+    padding-left: auto;
+}
+
+.listaredes {
+    width: 20%;
+    list-style-type: none;
+    display: inline-flex;
+    display: inline-flex;
+}
+
+footer div div{
+    display:contents
+}
+
+.redes {
+    width: 40px;
+}
+
+.wpp {
+    width: 50px;
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        padding-left: 0%;
+    }
+
+    .menuGrande {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .listamenu {
+        position: absolute;
+    }
+
+    .filaContenedor {
+        display: inline;
+
+    }
+
+    .main {
+        background-image: url(assets/imgs/noticias.jpg);
+        background-size: cover;
+        background-position: initial;
+        padding-top: 25%;
+
+    }
+
+    .main h2 {
+        margin-top: 0%;
+    }
+
+    .main p {
+        width: 70%;
+    }
+
+
+    .rectangulo1 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .rectangulo2 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuadrado1 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        margin-bottom: 5px;
+    }
+
+    .cuadrado2 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuadrado3 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -12px;
+        margin-bottom: 5px;
+
+
+    }
+
+    .cuadrado4 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+
+    }
+
+    .noticias {
+        display: inline-block;
+        height: auto;
+        padding-left: 15%;
+    }
+
+    .noticias section {
+        display: block;
+    }
+
+    .noticias article {
+        display: inline;
+        width: 100%;
+        background-color: #e3e2e2;
+
+
+    }
+
+
+    .art1 img {
+        width: 80%;
+
+    }
+
+    .art1 h3 {
+        width: 80%;
+    }
+
+    .art1 p {
+        width: 80%;
+
+    }
+
+    footer {
+        padding: 0%;
+    }
+
+    footer div {
+        display: block;
+
+
+    }
+
+    .contenedorLogoRedes {
+
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 28%;
+    }
+
+    .contenedorRedes {
+        display: block;
+        justify-content: center;
+    }
+
+    .listaredes {
+        padding-left: 50px;
+        margin: 0%;
+        margin-top: 1%;
+
+    }
+
+    footer div div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes {
+
+        width: 30px;
+    }
+
+    .wpp {
+        width: 40px;
+        margin-top: -5px;
+    }
+
+
+}
+
+/* PAG 2*/
+
+.mainTramites{
+    background-image: url(assets/imgs/tramite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 50px;
+}
+
+.mainTramites p{
+    color: black;
+    width: 55%;
+    
+}
+.certificadosInfo{
+    padding: 1% 10% 0% 10%;
+}
+/*CSS FORM*/
+#form{
+    padding: 1% 10% 0% 10%;
+
+}
+.form{
+    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    height: 34px;
+}
+.campo{
+    width: 100%;
+    height: 20pxs;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: red;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
